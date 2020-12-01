@@ -1,11 +1,11 @@
 # Site settings
 author: Alex Blumenthaler
-title: Stackful
+title: Technically Musical
 header-img: img/home-bg.png
 email: blumenthaleralex@gmail.com
 copyright_name: Alex Blumenthaler
 description: > # this means to ignore newlines until "baseurl:"
-  filling the world with code, one stack at a time
+   Musician and Web Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  blumenthaler
