@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React Router - useHistory and useRouteMatch"
-date:       2021-01-07 20:23:33 +0000
+date:       2021-01-07 15:23:34 -0500
 permalink:  react_router_-_usehistory_and_useroutematch
 ---
 
@@ -16,6 +16,7 @@ In order to give users this freedom, I had to design the database schema accordi
 1. a User has many Recipes.
 2. a Cocktail has many Recipes.
 3. a Recipe belongs to a User and a Cocktail.
+
 
 ## REST
 
@@ -57,6 +58,7 @@ Since the state is changed, and we are no longer viewing the form, the route sho
 
 This incorporation of `useHistory` and `useRouteMatch` came in very handy for me when designing custom, RESTful routes!
 
+If you want to browse my code, check out the [Github Repo](https://github.com/blumenthaler/Bar-Talk-Frontend).
 
 
 
