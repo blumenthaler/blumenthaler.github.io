@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Validations with Joi - And an App Alec Baldwin Can (Probably) Get Behind"
-date:       2021-03-06 21:01:44 +0000
+date:       2021-03-06 16:01:45 -0500
 permalink:  validations_with_joi_-_and_an_app_alec_baldwin_can_probably_get_behind
 ---
 
@@ -12,7 +12,7 @@ He said he was largely disappointed by the regular toxicity in the responses he 
 
 I cannot speak for Alec in regards to unwanted attention; my tweets do not receive nearly as much attention as his, nor, therefore, as much hate.
 
-What I can relate to, however, is the lack of a proper news aggregate. I am constantly searching for news sources that I like, and I do not have a way of organizing them or viewing their at once.
+What I can relate to, however, is the lack of a proper news aggregate. I am constantly searching for news sources that I like, and I do not have a way of organizing them or viewing their articles at once.
 
 Similar ideas to this are too often cluttered with ads or other noise (Twitter), or they do not allow you to actually aggregate the sources you want, showing you news sources that you do not want to see (Apple News, Filpboard).
 
@@ -87,7 +87,7 @@ app.post('/api/articles', (req, res) => {
     if (result.error) {
         res.status(400).send(result.error)
         return;
-    }
+    }t
     else {
         const article = {
             id: articles.length + 1,
@@ -240,7 +240,7 @@ Nice! Very DRY, modular code here. You love to see it!
 
 With this validation in place, I am well on my way to adding multiple articles and news sources to my application. 
 
-Hopefully Alec can rest easy knowing that there's a reliable news aggreagate in the works!
+Hopefully Alec can rest easy knowing that there's a reliable news aggregate in the works!
 
 Until next time: 
 
