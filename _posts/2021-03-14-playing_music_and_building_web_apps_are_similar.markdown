@@ -36,7 +36,7 @@ Instruments in a musical setting all have a specific role, and they must stick t
 
 Imagine if the piano started playing a bassline at the same time as the bass. Both instruments would step all over each other in the same range, creating an absolute mess. Plus, now *no one is playing the melody!* When instruments take on each other's jobs, the piece quickly becomes disastrous.
 
-##### This situation, believe it or not, also applies when building web applications.
+#### This situation, believe it or not, also applies when building web applications.
 
 In software engineering, there is a design paradigm known as the Separation of Concerns, or the Single Responsibility Principle. Each piece of code is responsible for one job; each function has one role, and should not interfere with other function's operations or outcomes. 
 
@@ -56,7 +56,7 @@ In order to develop this skill, jazz musicians not only practice and play a ton 
 
 Jazz musicians memorize how to play these licks (as well as seemingly limitless scales, arpeggios, intervals, chord voicings, triad pairs....) so that when it is time to solo, they can pull them out and play them effortlessly. 
 
-##### This notion is similar to standard methods for data types in a given coding language.
+#### This notion is similar to standard methods for data types in a given coding language.
 
 Let us take a basic Array in JavaScript as an example:
 
